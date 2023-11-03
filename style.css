@@ -1,0 +1,53 @@
+/* General styles for the report container */
+#report {
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table header styles */
+th {
+  background-color: #4caf50;
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Table row styles */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for correct/incorrect responses */
+.correct-response {
+  background-color: #c8e6c9; /* Light green for correct answers */
+}
+
+.incorrect-response {
+  background-color: #ffcdd2; /* Light red for incorrect answers */
+}
+
+/* Error message styling */
+.error-message {
+  color: #d32f2f; /* Dark red for errors */
+  font-weight: bold;
+}
